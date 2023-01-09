@@ -218,17 +218,6 @@
 }
 
 .hero__heading span {
-  /*background: -webkit-linear-gradient(
-    to right,
-    #ff6a00,
-    #ee0979
-  );
-  background: linear-gradient(
-    to right,
-    #ff6a00,
-    #ee0979
-  );
-  background-size: 100%;*/
   background-color: #ff8177;
   background-image: linear-gradient(to top,#800080 0%, #ffb199 100%);
   background-size: 100%;
@@ -240,17 +229,17 @@
 
 .hero__description {
   font-size: 60px;
-  background: #da22ff; /* fallback for old browsers */
+  background: #da22ff;
   background: -webkit-linear-gradient(
     to right,
     #9114ff,
     #da22ff
-  ); /* Chrome 10-25, Safari 5.1-6 */
+  );
   background: linear-gradient(
     to right,
     #8f0eff,
     #da22ff
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  );
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -298,9 +287,9 @@
 
 .main__content h1 {
   font-size: 2rem;
-  background: #654ea3;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+  background: #654ea3;
+  background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);
+  background: linear-gradient(to right, #eaafc8, #654ea3); 
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -536,6 +525,26 @@
   background-position: center;
   background-size: contain;
 }
+.services__card:nth-child(5){
+  background-image: url("images/Sign.jpeg");
+  background-position: center;
+  background-size: contain;
+}
+.services__card:nth-child(6){
+  background-image: url("images/Sign.jpeg");
+  background-position: center;
+  background-size: contain;
+}
+.services__card:nth-child(7){
+  background-image: url("images/Sign.jpeg");
+  background-position: center;
+  background-size: contain;
+}
+.services__card:nth-child(8){
+  background-image: url("images/Sign.jpeg");
+  background-position: center;
+  background-size: contain;
+}
 
 .services__card h2 {
   text-align: center;
@@ -559,6 +568,13 @@
   display: flex;
   justify-content: center;
   margin-top: 200px;
+  color: #fff;
+}
+.services__btn a{
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  text-decoration: none;
 }
 
 .services__card button {
