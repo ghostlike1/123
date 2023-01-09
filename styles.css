@@ -503,45 +503,45 @@
   flex-direction: column;
   justify-content: center;
   color: #fff;
-  background-image: url("images/Figure.jpeg");
+  background-image: url("");
   background-position: center;
   background-size: contain;
   transition: 0.3s ease-in;
 }
 
 .services__card:nth-child(2) {
-  background-image: url("images/Neon.jpeg");
+  background-image: url("");
   background-position: center;
   background-size: contain;
 }
 
 .services__card:nth-child(3) {
-  background-image: url("images/Cup.jpeg");
+  background-image: url("");
   background-position: center;
   background-size: contain;
 }
 .services__card:nth-child(4){
-  background-image: url("images/Sign.jpeg");
+  background-image: url("");
   background-position: center;
   background-size: contain;
 }
 .services__card:nth-child(5){
-  background-image: url("images/Sign.jpeg");
+  background-image: url("");
   background-position: center;
   background-size: contain;
 }
 .services__card:nth-child(6){
-  background-image: url("images/Sign.jpeg");
+  background-image: url("");
   background-position: center;
   background-size: contain;
 }
 .services__card:nth-child(7){
-  background-image: url("images/Sign.jpeg");
+  background-image: url("");
   background-position: center;
   background-size: contain;
 }
 .services__card:nth-child(8){
-  background-image: url("images/Sign.jpeg");
+  background-image: url("");
   background-position: center;
   background-size: contain;
 }
