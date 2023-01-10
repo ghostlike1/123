@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family:"Times New Roman", Times, serif;
+  font-family: 'sky';
   scroll-behavior: smooth;
 }
 
@@ -506,6 +506,7 @@
   background-image: url("");
   background-position: center;
   background-size: contain;
+  max-width: 100%;
   transition: 0.3s ease-in;
 }
 
@@ -548,14 +549,16 @@
 
 .services__card h2 {
   text-align: center;
-  font-size: rem;
-  background-color: #131313;
+  font-size: 3rem;
   color: #fff;
+  background-color: rgba(2, 0, 0, 0.4);
   padding: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   letter-spacing: 3px;
+  border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+  margin: 10px;
 }
 
 .services__card p {
@@ -636,7 +639,7 @@
   width: 100%;
   max-width: 1000px;
   display: flex;
-  justify-content: center;
+  justify-content: right;
 }
 
 .footer__link--wrapper {
@@ -645,29 +648,35 @@
 
 .footer__link--items {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: flex-start;
   margin: 42px;
-  text-align: right;
-  width: 160px;
+  text-align: center;
+  width: 1000px;
   box-sizing: border-box;
 }
 
 .footer__link--items h2 {
-  margin-bottom: 16px;
   color: #fff;
+  margin: 1.5rem;
 }
 
 .footer__link--items a {
   color: #fff;
   text-decoration: none;
-  margin-bottom: 0.5rem;
+  margin: 2rem;
+  margin-top: auto;
   transition: 0.3 ease-out;
 }
 
 .footer__link--items a:hover {
   color: #e9e9e9;
   transition: 0.3 ease-out;
+}
+
+.footer__link--items i{
+  color: #fff;
+  margin: 2rem;
 }
 
 .social__icon--link {
