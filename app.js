@@ -54,3 +54,5 @@ const hideMobileMenu = () => {
 
 menuLinks.addEventListener('click', hideMobileMenu);
 navLogo.addEventListener('click', hideMobileMenu);
+var video = document.getElementById("hero-bg");
+
